@@ -1,0 +1,16 @@
+[
+{
+  "modid": "MelonBlockDrop",
+  "name": "Melon Block Drop",
+  "description": "Ensures that melons block melons, not slices.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Cruz Bishop"],
+  "credits": "The Minecraft team for defying physics",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
