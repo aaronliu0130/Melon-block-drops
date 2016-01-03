@@ -2,7 +2,7 @@
 {
   "modid": "MelonBlockDrop",
   "name": "Melon Block Drop",
-  "description": "Ensures that melons block melons, not slices.",
+  "description": "Ensures that melons drop melons, not slices.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
