@@ -3,6 +3,7 @@ package com.techern.minecraft.melonblockdrop;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -42,7 +43,7 @@ public class MelonBlockDropMod {
     public void handlePreInit(FMLPreInitializationEvent event) {
         LOGGER = event.getModLog();
 
-        LOGGER.info("Set up MelonBlockDrop's logging");
+        LOGGER.trace("Set up MelonBlockDrop's logging");
     }
 
     /**
@@ -56,7 +57,13 @@ public class MelonBlockDropMod {
 
         registerMelonBlockCraftingRecipes();
 
-        LOGGER.info("Set melon block crafting recipes");
+        LOGGER.debug("Set melon block crafting recipes");
+
+        MinecraftForge.EVENT_BUS.register(new MelonBlockHarvestEventHandler());
+
+        LOGGER.debug("Registered melon block harvest event");
+
+        LOGGER.info("Finished setting up MelonBlockDrop. Have fun!");
     }
 
     /**
