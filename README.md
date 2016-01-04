@@ -1,4 +1,4 @@
-# Melon-block-drops
+# Melon Block Drop
 A Forge mod to drop melon blocks instead of slices
 
 Built against: 1673 (1.8.9)
