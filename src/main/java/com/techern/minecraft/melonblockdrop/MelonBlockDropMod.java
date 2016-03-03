@@ -8,7 +8,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
@@ -31,7 +30,7 @@ public class MelonBlockDropMod {
      *
      * @since 1.0.0
      */
-    public static Logger LOGGER = LogManager.getLogger(MelonBlockDropMod.class); //Temporarily set in case we use it before preInit one day
+    public static Logger LOGGER;
 
     /**
      * Handles the {@link FMLPreInitializationEvent}
