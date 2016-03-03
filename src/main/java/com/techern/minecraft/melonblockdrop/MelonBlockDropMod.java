@@ -24,7 +24,7 @@ public class MelonBlockDropMod {
      *
      * @since 1.0.0
      */
-    public static final String VERSION = "1.1.0";
+    public static final String VERSION = "1.2.0-SNAPSHOT";
 
     /**
      * The {@link Logger} for {@link MelonBlockDropMod}
