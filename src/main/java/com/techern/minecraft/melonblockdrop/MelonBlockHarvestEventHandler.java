@@ -22,14 +22,14 @@ public class MelonBlockHarvestEventHandler {
     @SubscribeEvent
     public void harvest(BlockEvent.HarvestDropsEvent event) {
 
-        if (event.state.getBlock().equals(Blocks.melon_block)) {
+        if (event.getState().getBlock().equals(Blocks.melon_block)) {
             //We're doing a melon block
 
             //First reset the drop list
-            event.drops.clear();
+            event.getDrops().clear();
 
             //Then add the new drop
-            event.drops.add(new ItemStack(Blocks.melon_block, 1));
+            event.getDrops().add(new ItemStack(Blocks.melon_block, 1));
 
         } //Do nothing if not
 
