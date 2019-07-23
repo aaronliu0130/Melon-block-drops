@@ -17,6 +17,6 @@ Does that sound right to you? No? Well, that's what happens in Minecraft - Witho
 
 Don't worry, your melon farm is fine! Instead of melons exploding, they will now drop melon blocks.
 
-####But melon blocks can't be split if you can't break them!
+#### But melon blocks can't be split if you can't break them!
 
 That's where the new crafting recipes come in. If you're disappointed by the output, try scattering some more melons around the crafting grid. You may get a nice surprise
